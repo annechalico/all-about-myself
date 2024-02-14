@@ -1,0 +1,118 @@
+html, body, h1, h2, h3, p, ul, li {
+margin:0
+padding: 2;
+
+}
+
+*{
+
+    box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: lightgreen;
+color: floralwhite;
+line-height: 1.6;
+
+}
+
+header {
+background-color: lightskyblue;
+padding: 20px 0;
+
+}
+
+header h1 {
+font-size: 32px;
+color: lavenderblush;
+text-align: center;
+
+}
+
+nav ul {
+    light-style-type:none;
+}
+
+nav ul li a {
+text-decoration: none;
+color: lightgoldenrodyellow;
+
+}
+
+nav ul li a:hover{
+text-decoration: underline;
+
+}
+
+main{
+    padding: 20px;
+}
+
+.about {
+
+    display: flex;
+    align-items: center;
+}
+
+.about img{
+max-height: 200px;
+border-radius: 50%;
+box-shadow: 0 0 20px rgba(0 ,0, 0, 0.3);
+}
+
+.about-info{
+    padding-left: 20px;
+}
+
+#hobbies {
+
+    margin-top: 40px;
+}
+
+h2 {
+margin-bottom: 20px;
+
+}
+
+.hobbies-container {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+
+}
+
+.hobby {
+background-color: lightcoral;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 0 20px rgba(0, 0, 0 ,0.1);
+width: calc(33.33% - 20px);
+
+}
+
+.hobby h3{
+font-size: 20px;
+color: lightgoldenrodyellow;
+margin-bottom: 10px;
+
+}
+
+.hobby img{
+max-width: 100%;
+height: auto;
+
+}
+
+#Contacts {
+    margin-top: 40px;
+}
+
+
+footer {
+background-color: lightskyblue;
+color: lightgoldenrodyellow;
+padding: 20px 0;
+text-align: center;
+
+}
